@@ -1,0 +1,7 @@
+type Query {
+     hello(input:String):String!
+}
+
+ extend type Query {
+      TQm(input:String):String!
+}
